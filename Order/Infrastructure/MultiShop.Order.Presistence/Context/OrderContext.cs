@@ -13,7 +13,7 @@ namespace MultiShop.Order.Presistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server =...;intial Catalog =MultiShopOrderDb;intagrated Security=true;");
+            optionsBuilder.UseSqlServer("Server =localhost,1440;initial Catalog =MultiShopOrderDb;User=sa;Password=Gncfb1907.");
         }
         public DbSet<Adress> Adresses { get; set; }
         public DbSet<OrderDetail> OrderDetails  { get; set; }

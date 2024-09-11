@@ -1,0 +1,4 @@
+----  Identity = 5001
+----  Discount = 7000
+----  Catalog = 7001
+----  Order = 7002
