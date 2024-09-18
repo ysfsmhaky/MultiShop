@@ -4,7 +4,7 @@ using MultiShop.Cargo.EntityLayer.Concrete;
 
 namespace MultiShop.Cargo.BusinessLayer.Concrete
 {
-    public class CargoCustomerManager : IGenericService<CargoCustomer>
+    public class CargoCustomerManager : ICargoCustomerService
     {
         private readonly ICargoCustomerDal _cargoCustomerDal;
 

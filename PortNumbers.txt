@@ -2,3 +2,5 @@
 ----  Discount = 7000
 ----  Catalog = 7001
 ----  Order = 7002
+----  Cargo = 7003
+----  Basket = 7004
